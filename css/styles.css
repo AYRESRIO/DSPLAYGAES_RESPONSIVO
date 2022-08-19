@@ -1,0 +1,463 @@
+/* ELEMENTS */
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+footer{
+    background-color:#383838;
+    color: #FFFFFF;
+    padding: 37px;
+    font-size: 14px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    height: 18.875rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1.90rem;
+}
+footer p{
+    color:#FFFFFF;
+}
+
+
+/* CLASSES, IDS */
+
+.nav-container{
+    background-color: #38AF90;
+    height: 90px;
+    width: 100%;  
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.nav-main{ 
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;   
+    display: inline-flex;
+    align-items:center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-main a{
+    color: #FFFFFF;
+    text-decoration: none;   
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+}
+.menu-items{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-items li{
+    margin: 18px 0 0 0;
+
+}
+.general-order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0 0 0;
+}
+.news-title{
+    color: #797979;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin:40px 0 8px 0;
+    font-weight: bold;
+}
+.featured-news1{
+    color: #38AF90;
+    margin: 16px 28px 3px 28px;
+    font-size: 16px;
+}
+.img-underline{
+    margin: 0 30px;
+    width: 870px;
+
+}
+.date-notices p{
+    color:#38AF90;
+    
+}
+.sectionnews-card1{
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 960px;
+    margin:0 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.sectionnews-card1 p{
+    margin: auto 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.text-news-1{
+    margin: auto 30px;
+    font-size: 10px;
+    
+}
+
+.sectionnews-card2{ 
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.sectionnews-card2 p{
+    margin: auto 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.text-news-2{
+    margin: auto 30px;
+    font-size: 10px;
+    
+}
+
+.featured-news2{
+    margin: 16px 28px 3px 28px;
+    font-size: 16px;
+    color: #38AF90;
+}
+.read-more p{
+    color:#DD7E92;
+    margin: 0 0 20px 28px ;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+.load-more{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+
+.load-more input{
+   
+   
+    background-color:#DD7E92;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:8px;
+    width: 244px;
+    height:64px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 4px rgba(20, 20, 20, 0.25);
+    border: none;
+    
+}
+#games{
+    
+    margin: 0 60rem 0 60rem;  
+    text-align: center;
+}
+.game-order{
+    width:100%;
+    max-width: 1500px;
+    margin: 20px 20px 20px 0;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+}
+.game-order h1{
+    
+    color: #38AF90;
+   font-size: 1.5rem
+}
+.game-order img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    justify-content: center;
+    width: 260px;
+    height: 168.54px;
+    color:#797979;  
+    
+      
+}
+
+.game-order p{
+    color:#38AF90;
+}
+.game-order-text{
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    width:260px;
+    height: 326px;
+    cursor: pointer;
+}
+.game-order-text h3{
+    font-size: 18px;
+    margin: 20px 0 0 0;
+
+}
+.game-order-text p{
+    text-align: center;
+    font-size: 12px ;
+    margin: 0 0 12px 0;
+}
+   
+.game-order-text h1{
+    font-size: 36px;
+    margin: 0;
+} 
+.form-title h1{
+    color:#797979;
+    text-align: center;
+    font-size: 24px;
+}
+.general-form{
+    margin: 20px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+   width: 100%;
+   max-width: 960px;
+   margin: 16px auto 40px auto;
+   padding: 60px 0;
+   border: 1px solid #999999;
+   display: flex;
+   
+}
+.form-registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.put-name{
+    background-color:#FFFFFF;
+    color:#C4C4C4; 
+    font-size: 16px;
+    font-weight: 400;
+    border-radius:8px;
+    width: 244px;
+    height:64px;
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid #797979;
+
+}
+.put-mail{
+    background-color:#FFFFFF;
+    color:#C4C4C4; 
+    font-size: 16px;
+    font-weight: 400;
+    border-radius:8px;
+    width: 244px;
+    height:64px;
+    cursor: pointer;
+    margin: 10px;
+    border: 1px solid #797979;
+
+}
+#ctrl-platform{
+    font-size: 16px;
+}
+.ctrl-novelties{
+    margin: 20px 0;
+}
+.form-sendclean{
+    margin: 37px 0;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.send-pink{
+    background-color:#DD7E92;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:8px;
+    width: 244px;
+    height:64px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+}
+.reset-white{
+    background-color:#FFFFFF;
+    color:#DD7E92; 
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:8px;
+    width: 244px;
+    height:64px;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #DD7E92;
+}
+
+
+@media(min-width:960px){
+        .nav-main a{
+            font-size: 14px;
+            margin: 34px 29px 35px 0;
+            font-weight: 500;
+        }
+        .nav-title{
+            margin: 27px 400px 27px 15px;
+            font-size: 24px;
+        }
+        .nav-container{
+            height: 130px;
+        }
+        .menu-items img{
+            margin: 14px 14px 14px 0;
+        }
+        .news-title{
+            font-size: 36px;
+        }
+        .featured-news1{
+            font-size: 24px;
+        }
+        .featured-news2{
+            font-size: 24px;
+        }
+        .sectionnews-card1 p{
+            font-size: 16px;
+        }
+        .sectionnews-card2 p{
+            font-size: 16px;
+        }
+        .game-order h1{
+            font-size: 2.25rem;
+        }
+        .form-title h1{
+
+            font-size: 36px;
+        }
+}
+@media(min-width:150px){
+    .put-name{
+       
+        font-size: 12px;
+        width: 94px;
+        height:32px;
+    }
+    .put-mail{
+        
+        font-size: 12px;
+        width: 94px;
+        height:32px;
+    }
+   
+    #ctrl-platform{
+        font-size: 11px;
+        width: 28%;
+        max-width: 319px;
+        margin: 0 auto;  
+    } 
+    .ctrl-novelties{
+        font-size: 12px;
+        width: 28%;
+        max-width: 319px;
+        margin: 0 auto;  
+        
+    }
+    .send-pink{
+        font-size: 12px;
+        width: 94px;
+        height:32px;
+    }
+    .reset-white{
+        font-size: 12px;
+        width: 94px;
+        height:32px;
+    }
+
+}
+@media(min-width:320px){
+    .put-name{
+        font-size: 16px;
+        width: 244px;
+        height:64px;   
+    }
+    .put-mail{
+        font-size: 16px;
+        width: 244px;
+        height:64px;
+    }
+    #ctrl-platform{
+        font-size: 16px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+
+    }
+    .ctrl-novelties{
+       font-size: 16px;
+        width: 100%;
+        max-width: 1200px;
+        margin: 20px auto;
+
+    }
+    .send-pink{
+        font-size: 18px;
+        width: 244px;
+        height:64px;  
+    }
+    .reset-white{
+        font-size: 18px;
+        width: 244px;
+        height:64px;
+    }
+    
+   
+    
+        
+       
+    
+
+}
+
+    
+
+
+
+
+    
+
